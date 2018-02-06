@@ -1,7 +1,7 @@
 let indentString = require("indent-string")
 
 class Activity{
-    static getActivity(id){
+    static get(id){
         if(!id || id.trim().length == 0) return null;
 
         return {
